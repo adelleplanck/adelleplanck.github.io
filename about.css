@@ -1,0 +1,181 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body{
+    background-color: #15021d;
+    color:#fff;
+    margin:0px;
+    padding:0px;
+}
+
+#header{
+    padding-right:2rem;
+}
+
+.navBar{
+   width: 100%;
+   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.nav-item{
+   cursor: pointer;
+    margin-right:3rem;
+    margin-top:2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 36px;
+  
+    width: auto;
+    height: 40px;
+}
+
+
+
+#nav-h{
+color: #ffffff;
+}
+
+#nav-a{
+color: #9160B4;
+}
+
+#nav-p{
+color: #ffffff;
+}
+
+
+ 
+
+@media (min-width:1350px){
+  .octagon{
+    width:60%;
+  }
+    .nav-item{padding-right:3rem;}
+   
+}
+
+@media (max-width: 1350px) {
+   .nav-item{
+       font-size: 1.3rem;padding-right:1rem;
+   }
+   .navBar{
+       justify-content: center;
+   }
+    
+}
+
+.container {
+ 
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    height: 600px; /* necessary so items know where to wrap */
+  }
+  div.orange {
+   /*background-color: orange;*/
+  }
+  div.blue {
+  
+    order: 0;
+    /*background-color: aqua;*/
+  }
+  div.green {
+ 
+    /*background-color: lightgreen;*/
+ 
+  }
+  .container > div {
+    width: 100%;
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .langBanner{
+    font-size:1.2rem;
+  background-color: #40006e;
+  justify-content: center;
+  text-align: center;
+  padding:4%;
+  padding-top:3.5rem;
+  padding-bottom: 3.5rem;
+  margin-top:3rem;
+  }  
+
+  .lang{
+    width:75px;
+    height:85px;
+    padding:1%;
+  }
+  .text{
+    font-size:1.2rem;
+    padding-left: 6%;
+    padding-right:10%;
+  }
+  
+  @media (min-width: 1000px) {
+    .container {
+      flex-wrap: wrap;
+    
+    }
+    div.orange { 
+      flex-basis: 100%;
+      width: 50%;
+      float:right;
+    }
+    div.blue {
+      flex-basis: 50%;
+      width: 50%;
+      order: -1;
+    }
+    div.green {
+      order:-1;
+      flex-basis: 50%;
+      width: 50%;
+    }
+  
+
+  }
+
+  @media (max-width:1000px){
+    .text{
+      font-size:1.1rem;
+    }
+    .octagon{padding:2rem;}
+    .container{
+      height:1000px;
+    }
+    .langBanner{
+      font-size:0.9rem;
+    }
+    .lang{
+      width: 55px;
+      height:65px;
+      padding:2%;
+     
+    }
+
+  }
+
+
+
+
+
+html {
+   -ms-overflow-style: none;  /* Internet Explorer 10+ */
+   scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+   display: none;  /* Safari and Chrome */
+}
+
