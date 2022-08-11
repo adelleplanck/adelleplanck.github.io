@@ -1,0 +1,141 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body{
+    background-color: #e2e2e2;
+ 
+}
+#header{
+    padding-right:2rem;
+}
+
+.navBar{
+   width: 100%;
+   
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.nav-item{
+   cursor: pointer;
+    margin-right:3rem;
+    margin-top:2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 36px;
+  
+    width: auto;
+    height: 40px;
+}
+
+
+
+#nav-h{
+color: #9160B4;
+}
+
+#nav-a{
+color: #15021D;
+}
+
+#nav-p{
+color: #15021D;
+}
+
+.container{
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+   
+}
+
+.octagon{
+    text-align: center;
+    width:100%;
+}
+
+p{
+    line-height: 25px;
+    font-weight: 700;
+    width:75%;
+}
+
+h1{
+    line-height: 40px;
+    color:#40006e;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 1rem; /* change this to whatever height you want it */
+}
+
+.text{
+    text-align: left;
+    width:90%;
+    padding-left: 5rem;
+   
+    vertical-align: middle;
+    color:#15021D;
+    font-size: 1.5rem;
+  
+    padding-right:2rem;
+}
+
+@media (min-width:1350px){
+     .text{padding-top:18rem;}
+     .nav-item{padding-right:3rem;}
+}
+
+@media (max-width: 1350px) {
+    .nav-item{
+        font-size: 1.3rem;padding-right:1rem;
+    }
+    .navBar{
+        justify-content: center;
+    }
+    .container{
+        flex-direction: column; margin-top:2rem;
+    }
+    .text{
+        margin-top:3rem;padding-left:4rem;
+    }
+    .octagon{
+        margin-top:1.5rem;
+    }
+}
+
+@media (max-width:600px){
+    .nav-item{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media (max-width:500px){
+    .nav-item{
+        font-size: 1.1rem;
+    }
+    .text{
+        font-size: 1.2rem;
+    }
+}
+
+html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
