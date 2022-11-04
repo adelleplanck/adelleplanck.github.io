@@ -50,7 +50,7 @@ body{
   color: #ffffff;
 }
 
-@media (min-width:1350px){
+@media (min-width:1000px){
   .octagon{
     width:60%;
   }
@@ -59,15 +59,36 @@ body{
   }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1000px) {
    .nav-item{
-       font-size: 1.3rem;padding-right:1rem;
+       font-size: 1.3rem;
+       padding-right:1rem;
    }
    .navBar{
        justify-content: center;
    }
     
 }
+
+@media (max-width:600px){
+  .nav-item{
+      font-size: 1.2rem;
+  }
+  
+}
+
+@media (max-width:500px){
+  .nav-item{
+      font-size: 1rem;
+      margin-right: 2.4rem;
+  }
+  .text{
+      padding-top:0px;
+      margin-top: 0px;
+      font-size: 1.2rem;
+  }
+}
+
 
 .container {
     margin-top:2rem;

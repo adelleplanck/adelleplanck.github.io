@@ -33,6 +33,7 @@ body{
     line-height: 36px;
     width: auto;
     height: 40px;
+    text-align: center;
 }
 
 
@@ -86,21 +87,23 @@ br {
     width:90%;
     padding-left: 5rem;
    
-    vertical-align: middle;
+
     color:#15021D;
     font-size: 1.5rem;
   
     padding-right:2rem;
 }
 
-@media (min-width:1350px){
-     .text{padding-top:18rem;}
+@media (min-width:1000px){
+    .octagon{padding-top:1rem;}
+     .text{padding-top:15rem;}
      .nav-item{padding-right:3rem;}
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1000px) {
     .nav-item{
-        font-size: 1.3rem;padding-right:1rem;
+        font-size: 1.3rem;
+        padding-right:1rem;
     }
     .navBar{
         justify-content: center;
@@ -120,16 +123,19 @@ br {
 
 @media (max-width:600px){
     .nav-item{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     
 }
 
 @media (max-width:500px){
     .nav-item{
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin-right: 2.4rem;
     }
     .text{
+        padding-top:0px;
+        margin-top: 0px;
         font-size: 1.2rem;
     }
 }

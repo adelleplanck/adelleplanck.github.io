@@ -7,5 +7,5 @@ function redirect2projects(){
 }
 
 function redirect2home(){
-    location.href ="home.html";
+    location.href ="index.html";
 }
