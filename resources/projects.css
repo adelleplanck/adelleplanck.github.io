@@ -1,0 +1,89 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body{
+    background-color: #40006e;
+    margin-right: 1rem;
+    padding:0px;
+}
+#header{
+    padding-right:2rem;
+}
+
+.navBar{
+   width: 100%;
+    margin-top:1%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.nav-item{
+    cursor: pointer;
+    margin-right:3rem;
+    margin-top:2rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 36px;
+    width: auto;
+    height: 40px;
+    text-align: center;
+}
+
+
+
+#nav-h{
+color: #e2e2e2;
+}
+
+#nav-a{
+color: #e2e2e2;
+}
+
+#nav-p{
+color: #9160b4;
+}
+
+@media (min-width:1000px){
+     .nav-item{padding-right:3rem;}
+}
+
+@media (max-width: 1000px) {
+    .nav-item{
+        font-size: 1.3rem;
+        padding-right:1rem;
+    }
+    .navBar{
+        justify-content: center;
+      
+    }
+}
+
+@media (max-width:600px){
+    .nav-item{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media (max-width:500px){
+    .nav-item{
+        font-size: 1rem;
+        margin-right: 2.4rem;
+    }
+    
+}
+
+html {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+html::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
