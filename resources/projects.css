@@ -5,7 +5,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body{
-    background-color: #40006e;
+    background-color: #15021d;
     margin-right: 1rem;
     padding:0px;
 }
@@ -50,8 +50,31 @@ color: #e2e2e2;
 color: #9160b4;
 }
 
+
 @media (min-width:1000px){
      .nav-item{padding-right:3rem;}
+     .container{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+     } 
+     .project{
+        width:40%;
+        background-color: #e2e2e2;
+        margin:2rem;
+        text-align: center;
+        padding:1rem;
+     }
+     .postT{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .postL{
+        font:1rem;
+        font-weight: 300;
+        color:#9160b4;
+    } 
+    
 }
 
 @media (max-width: 1000px) {
@@ -63,6 +86,22 @@ color: #9160b4;
         justify-content: center;
       
     }
+   .project{
+    background-color: #e2e2e2;
+    margin:2rem;
+    text-align: center;
+    padding:1rem;
+}
+
+.postT{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.postL{
+    font:1rem;
+    color:#9160b4;
+    font-weight: 300;
+} 
 }
 
 @media (max-width:600px){
