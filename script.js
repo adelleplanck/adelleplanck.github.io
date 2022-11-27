@@ -10,10 +10,9 @@ function redirect2home(){
     location.href ="index.html";
 }
 
-/*projects = ["3D-Planet-Gallery", "CSV-Workbench"];
+
 
 function openProject(index){
-    filename = projects[index]+"/index.html";
+    filename = "/resources/p"+index +"/index.html";
     location.href = filename;
 }
-*/
