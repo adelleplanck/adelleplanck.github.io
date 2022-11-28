@@ -5,10 +5,10 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body{
-    background-color: #15021d;
+    background-color: #9160B4;
     color:#fff;
     margin:0px;
-    margin-right:1rem;
+    
     padding:0px;
 }
 
@@ -22,7 +22,6 @@ body{
   margin-top:1%;
   display: flex;
   justify-content: flex-end;
-   
 }
 
 .nav-item{
@@ -43,81 +42,59 @@ body{
 }
 
 #nav-a{
-  color: #9160B4;
+  color: #15021d;
 }
 
 #nav-p{
   color: #ffffff;
 }
 
-@media (min-width:1000px){
-  .octagon{
-    width:60%;
-  }
-  .nav-item{
-    padding-right:3rem;
-  }
+.container{
+  margin:2rem;
+  justify-content: center;
+  text-align: left;
 }
 
-@media (max-width: 1000px) {
-   .nav-item{
-       font-size: 1.3rem;
-       padding-right:1rem;
-   }
-   .navBar{
-       justify-content: center;
-   }
-    
-}
-
-@media (max-width:600px){
-  .nav-item{
-      font-size: 1.2rem;
-  }
-  
-}
-
-@media (max-width:500px){
-  .nav-item{
-      font-size: 1rem;
-      margin-right: 2.4rem;
-  }
-  .text{
-      padding-top:0px;
-      margin-top: 0px;
-      font-size: 1.2rem;
-  }
-}
-
-
-.container {
+.quote{
+    background-color: #15021d;
     margin-top:2rem;
-    display: flex;
-    flex-direction: column;
-    height: 600px; /* necessary so items know where to wrap */
-  }
- 
-div.blue {
-  order: 0;
+    width: 100%;;
+    text-align: center;
+    padding:1rem;
+    padding-bottom: 2rem;;
 }
-  
-.container > div {
-  width: 100%;
-  flex: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+i{
+  color:#40006e;
 }
-  
-.langBanner{
+
+.qT{
+  margin-top: 6rem;
+  padding:2rem;
+    font-size: 1.6rem;;
+    line-height: 40px;
+    color:#40006e;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.qL{
+    font-size: 1.4rem;;
+    line-height: 40px;
+    color:#e2e2e2;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.langBar{
   font-size:1.2rem;
-  background-color: #40006e;
-  justify-content: center;
-  text-align: center;
-  padding:4%;
-  padding-top:3.5rem;
-  padding-bottom: 3.5rem;
-  margin-top:3rem;
+background-color: #15021d;
+justify-content: center;
+text-align: center;
+padding:4%;
+padding:1rem;
+margin-top:3rem;
 }  
 
 .lang{
@@ -126,55 +103,32 @@ div.blue {
   padding:1%;
 }
 
-.text{
-  font-size:1.2rem;
-  padding-left: 6%;
-  padding-right:10%;
+@media (min-width:1000px){
+   .nav-item{padding-right:3rem;}
+   .container{padding-left: 10rem; padding-right: 10rem; margin-top: 7rem;font-size:1.2rem;}
 }
-  
-@media (min-width: 1000px) {
-  .container {
-    flex-wrap: wrap;
+
+@media (max-width: 1000px) {
+  .nav-item{
+      font-size: 1.3rem;
+      padding-right:1rem;
   }
-  
-  div.orange { 
-    flex-basis: 100%;
-    width: 50%;
-    float:right;
-  }
-  
-  div.blue {
-    flex-basis: 50%;
-    width: 50%;
-    order: -1;
-  }
-  
-  div.green {
-    order:-1;
-    flex-basis: 50%;
-    width: 50%;
+  .navBar{
+      justify-content: center;
+    
   }
 }
 
-@media (max-width:1000px){
-  .text{
-    font-size:1.1rem;
+@media (max-width:600px){
+  .nav-item{
+      font-size: 1.1rem;
   }
-  .octagon{
-    padding:2rem;
-  }
-  .container{
-    height:1000px;
-  }
-  
-  .langBanner{
-    font-size:0.9rem;
-  }
-  
-  .lang{
-    width: 55px;
-    height:65px;
-    padding:2%;
+}
+
+@media (max-width:500px){
+  .nav-item{
+      font-size: 1rem;
+      margin-right: 2.4rem;
   }
 }
 
