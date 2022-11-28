@@ -86,14 +86,17 @@ br {
     text-align: left;
     width:90%;
     padding-left: 5rem;
-   
-
     color:#15021D;
     font-size: 1.5rem;
-  
+    height:60%;
+    padding-top:20%;
     padding-right:2rem;
 }
 
+.lightText{
+    color: #9160B4;
+    font-weight:400;
+}
 
 @media (min-width:1000px){
     .octagon{padding-top:1rem;}
