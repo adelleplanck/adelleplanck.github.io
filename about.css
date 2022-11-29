@@ -56,22 +56,28 @@ body{
 }
 
 .quote{
+    display: flex;
     background-color: #15021d;
     margin-top:2rem;
     width: 100%;;
     text-align: center;
     padding:1rem;
     padding-bottom: 2rem;;
+    justify-content: center;
 }
 
 i{
-  color:#40006e;
+  color: #15021d;
+}
+
+.qB{
+  margin:4rem;
 }
 
 .qT{
   margin-top: 6rem;
   padding:2rem;
-    font-size: 1.6rem;;
+    font-size: 1.6rem;
     line-height: 40px;
     color:#40006e;
     font-weight: 800;
@@ -101,7 +107,11 @@ margin-top:3rem;
 .lang{
   width:75px;
   height:85px;
-  padding:1%;
+  padding:1rem;
+}
+
+b{
+  color: #40006e;
 }
 
 @media (min-width:1000px){
@@ -118,6 +128,9 @@ margin-top:3rem;
       justify-content: center;
     
   }
+  .quote{
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width:600px){
@@ -129,6 +142,7 @@ margin-top:3rem;
     height: 50px;
     margin:10px;
   }
+  
 }
 
 @media (max-width:500px){
