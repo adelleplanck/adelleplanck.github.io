@@ -5,7 +5,7 @@ html { font-family: 'Inter', sans-serif; }
 }
 
 body{
-    background-color: #40006e;
+    background-color: #e2e2e2;
     margin:0px;
     padding:0px;
 }
@@ -39,11 +39,11 @@ body{
 
 
 #nav-h{
-color: #e2e2e2;
+color: #40006e;
 }
 
 #nav-a{
-color: #e2e2e2;
+color: #40006e;
 }
 
 #nav-p{
