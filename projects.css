@@ -22,12 +22,6 @@ body{
    
 }
 
-.container{
-    position: absolute;
-    top:40%;
-    width: 100%;
-}
-
 .nav-item{
     cursor: pointer;
     margin-right:3rem;
@@ -63,6 +57,7 @@ color: #9160b4;
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
+        margin-top:15%;
      } 
      .project{
         width:40%;
@@ -107,12 +102,18 @@ color: #9160b4;
     font:1rem;
     color:#9160b4;
     font-weight: 300;
-} 
+}  
+.container{
+    margin-top:40%;
+}
 }
 
 @media (max-width:600px){
     .nav-item{
         font-size: 1.1rem;
+    }
+   .container{
+        margin-top:70%;
     }
     
 }
