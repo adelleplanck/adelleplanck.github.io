@@ -22,6 +22,12 @@ body{
    
 }
 
+.container{
+    position: absolute;
+    top:40%;
+    width: 100%;
+}
+
 .nav-item{
     cursor: pointer;
     margin-right:3rem;
