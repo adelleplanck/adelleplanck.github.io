@@ -1,7 +1,7 @@
 body{
-	background-image:url("stars.jpg");
+	background-image:url("/3DSolarSystem/src/Resources/stars.jpg");
 	margin:0;
-	color: aliceblue;
+	color: #000000;
 }
 
 html::-webkit-scrollbar{
@@ -55,6 +55,7 @@ h1{
 	position:absolute;
 	padding-bottom:20px;
 	top :75%;
+	color:#fff;
 }
 
 #nasaLink{
