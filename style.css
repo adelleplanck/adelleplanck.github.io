@@ -337,3 +337,7 @@ b{
     text-align: center;
     font-size:small;
  }
+
+ .p-btn:hover{
+  cursor: pointer;
+ }
