@@ -25,33 +25,6 @@ body{
 a{
     text-decoration: none;
 }
-
-.nav-item{
-    cursor: pointer;
-    margin-right:3rem;
-    margin-top:2rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 36px;
-    width: auto;
-    height: 40px;
-    text-align: center;
-}
-
-#nav-h{
-color: #9160B4;
-}
-
-#nav-a{
-color: #15021D;
-}
-
-#nav-p{
-color: #15021D;
-}
-
 .container{
     justify-content: center;
     display:flex;
@@ -102,12 +75,18 @@ br {
 }
 
 @media (min-width:1000px){
+     .project{
+      border:2px solid #aaaaaa;
+    }
     .octagon{padding-top:1rem;}
-     .text{padding-top:15rem;}
-     .nav-item{padding-right:3rem;}
+    .text{padding-top:15rem;}
+    .nav-item{padding-right:3rem;}
 }
 
 @media (max-width: 1000px) {
+    p{
+      text-align: left;
+    }
     .container{
         flex-direction: column; 
         margin-top:2rem;
@@ -124,6 +103,9 @@ br {
         width:100%;
     }
     .swdText{
+      font-size: 2.5rem;
+      width: 100%;
+      text-align: justify;
       padding-left:0rem;
       margin-top:0rem;
       margin-bottom: 0rem;
@@ -140,6 +122,9 @@ br {
     }
     .p-thumbnail{
       margin-right:3rem;
+    }
+    .project{
+      border:0px;
     }
 }
 
@@ -245,6 +230,9 @@ b{
   .container-lang{
     margin-top:3rem;
   }
+  .project{
+      border:0px;
+    }
 }
 
 @media (max-width:600px){
@@ -264,6 +252,9 @@ b{
   .container-lang{
     margin-top:3rem;
   }
+  .project{
+      border:0px;
+    }
 }
 
 @media (max-width:500px){
@@ -271,6 +262,9 @@ b{
       font-size: 1rem;
       margin-right: 2.4rem;
   }
+  .project{
+      border:0px;
+    }
 }
 
 .p-lang{
@@ -303,7 +297,7 @@ b{
   }  
 
  .project{
-    border:2px solid #aaaaaa;
+   
     border-radius: 0.75rem;
     margin-left:3rem;
     margin-right:3rem;
