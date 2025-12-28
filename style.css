@@ -307,13 +307,17 @@ b{
   }  
 
  .project{
-    border:2px solid #15021d;
+    border:2px solid #aaaaaa;
+    border-radius: 0.75rem;
     margin-left:3rem;
     margin-right:3rem;
     margin-bottom:2rem;
-    padding:1rem;
-    padding-right:0;
-    width:30rem;
+    padding-right:0rem;
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width:23rem;
+    text-align: left;
     
  } 
 
@@ -340,4 +344,13 @@ b{
 
  .p-btn:hover{
   cursor: pointer;
+ }
+
+ .container-projects{
+  background-color: #e2e2e2;
+ }
+
+ .p-thumbnail{
+  width: 20rem;
+  padding-right: 0rem;
  }
