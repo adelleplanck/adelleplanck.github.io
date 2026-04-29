@@ -56,7 +56,7 @@ body{
     height: 46rem;
     padding: 0 3rem 0 0;
     margin:0 0 1rem 0;
-    background-image: url("/RESOURCES/Hbg.png");
+    background-image: url("./RESOURCES/Hbg.png");
     background-repeat: no-repeat;
     background-position:top;
     background-position-x: right;
@@ -178,7 +178,7 @@ h4{
 
 .Section5{
     margin-top:5rem;
-    background-image: url("/RESOURCES/pinkBG.png");
+    background-image: url("./RESOURCES/pinkBG.png");
     background-repeat: no-repeat;
     background-size: 100%;
 }
